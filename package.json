@@ -1,0 +1,25 @@
+{
+  "name": "@iryu54/scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testWatch": "nyc jest --watch --runInBand"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "jest": "^24.8.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "chai-diff": "^1.0.1",
+    "chai-jest-diff": "^1.0.2",
+    "jest-nyan-reporter": "git://github.com/abdulhannanali/jest-nyan-reporter.git#4a0da6f76dbee849a9201815341f5d8fd6e68bb9"
+  }
+}
